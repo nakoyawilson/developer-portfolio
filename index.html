@@ -109,7 +109,7 @@
     <section class="contact" id="contact">
         <h2 class="contact-title">Get In Touch With Me</h2>
         <div class="contact-form-container">
-            <div class="contact-form">
+            <div class="contact-form" action="POST" data-netlify="true">
                 <form action="">
                     <div class="form-control">
                         <label for="name">Name</label>
@@ -126,7 +126,10 @@
                         <textarea id="message" name="message" cols="60" rows="10" class="input-field"
                             placeholder="Enter Your Message" required></textarea>
                     </div>
-                    <input type="submit" value="Submit" id="submit-btn" class="submit-btn">
+                    <div class="form-control">
+                        <div data-netlify-recaptcha="true"></div>
+                    </div>
+                    <input type="submit" value="Send Message" id="submit-btn" class="submit-btn">
                 </form>
             </div>
         </div>
