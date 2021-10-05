@@ -205,10 +205,11 @@ nav ul li {
 .project-container {
   text-align: center;
   width: 21.875rem;
+  height: 25rem;
   padding: 1rem;
 }
 
-.project-container p {
+.project-details {
   padding: 0.4rem;
 }
 
@@ -458,6 +459,11 @@ footer {
 
   .contact-form-container {
     max-width: 17.75rem;
+  }
+
+  /* Contact Section */
+  .captcha {
+    width: 100%;
   }
 
   /* Social Icons */
