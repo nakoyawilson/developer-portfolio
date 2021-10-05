@@ -156,8 +156,9 @@ bio p {
   margin-bottom: 1rem;
 }
 
-.skills-icon {
+.skills .fab {
   padding: 1.25rem;
+  font-size: 7em;
 }
 
 .icon-card {
@@ -294,6 +295,10 @@ textarea {
   bottom: 50%;
 }
 
+.socials .fab {
+  font-size: 3rem;
+}
+
 /* Footer Section */
 
 footer {
@@ -308,4 +313,144 @@ footer {
   right: 0.5%;
   bottom: 3%;
   cursor: pointer;
+}
+
+.scroll-up .fas {
+  font-size: 3rem;
+  color: var(--primary-color);
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 720px) {
+
+  /* Navbar */
+
+  nav {
+    padding: 1.5rem 1rem;
+  }
+
+  nav ul {
+    position: fixed;
+    background-color: var(--bg-color);
+    flex-direction: column;
+    top: 86px;
+    left: 10%;
+    width: 80%;
+    text-align: center;
+    transform: translateX(120%);
+    transition: transform 0.5s ease-in;
+  }
+
+  nav ul li {
+    margin: 8px;
+  }
+
+  .burger-menu {
+    display: block;
+  }
+
+  nav ul.show {
+    transform: translateX(0);
+  }
+
+  /* Hero Section */
+
+  .hero {
+    margin-top: -4rem;
+    flex-direction: column;
+    gap: 0
+  }
+
+  .hero-img {
+    height: 37.5rem;
+    width: 30rem;
+  }
+
+  .bio {
+    margin-top: -7rem;
+    width: 20.5rem;
+  }
+
+  /* More About Me Section */
+
+  .more-about {
+    margin-top: 2rem;
+    padding: 1rem 3.5rem;
+  }
+
+  more-about h2 {
+    text-align: center;
+  }
+
+  .more-about p {
+    text-align: justify;
+  }
+
+  /* Skills Section */
+
+  .skills .fab {
+    font-size: 3em;
+  }
+
+  .icon-card {
+    width: 100px;
+  }
+
+  /* Projects Section */
+
+  .projects-container {
+    flex-direction: column;
+  }
+
+  .project-container {
+    width: 20.875rem;
+  }
+
+  /* Contact Form */
+
+  .contact-form-container {
+    max-width: 23.75rem;
+  }
+}
+
+@media screen and (max-width: 420px) {
+
+  /* Hero Section */
+  .hero-img {
+    height: 37.5rem;
+    width: 23rem;
+  }
+
+  .bio {
+    width: 18.3rem;
+  }
+
+  /* Skills Section */
+  .icon-card {
+    width: 75px;
+  }
+
+  .skills .fab {
+    font-size: 2em;
+  }
+
+  /* Projects Section */
+  .project-container {
+    width: 17.875rem;
+  }
+
+  .contact-form-container {
+    max-width: 17.75rem;
+  }
+
+  /* Social Icons */
+
+  .socials .fab {
+    font-size: 2rem;
+  }
+
+  .scroll-up .fas {
+    font-size: 2rem;
+  }
 }
