@@ -117,13 +117,16 @@ nav ul li {
   box-shadow: 0px 2px 15px 2px var(--primary-shadow);
 }
 
-bio h2 {
+.bio-title {
   margin-bottom: var(--bottom-margin);
+  text-align: center;
+  color: var(--primary-color);
 }
 
-bio p {
+.bio-text {
   line-height: var(--line-height);
   padding: 0.3rem 0;
+  text-align: justify;
 }
 
 /* More About Me Section */
@@ -133,7 +136,8 @@ bio p {
   padding: 1rem 6rem;
 }
 
-.more-about h2 {
+.more-about-title {
+  color: var(--primary-color);
   margin-bottom: var(--bottom-margin);
   text-align: center;
 }
@@ -153,6 +157,7 @@ bio p {
 }
 
 .skill-header {
+  color: var(--primary-color);
   margin-bottom: 1rem;
 }
 
@@ -190,6 +195,7 @@ bio p {
 }
 
 .projects-title {
+  color: var(--primary-color);
   text-align: center;
   margin-bottom: 1rem;
 }
@@ -226,7 +232,8 @@ bio p {
   margin-top: 2rem;
 }
 
-.contact h2 {
+.contact-title {
+  color: var(--primary-color);
   text-align: center;
   margin-bottom: var(--bottom-margin-2);
 }
