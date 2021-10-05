@@ -463,7 +463,8 @@ footer {
 
   /* Contact Section */
   .captcha {
-    width: 100%;
+    transform: scale(0.77);
+    transform-origin: 0 0;
   }
 
   /* Social Icons */
