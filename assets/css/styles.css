@@ -8,7 +8,7 @@
   --bolder-font: 900;
   --bg-color: #fcfcfc;
   --primary-color: #511281;
-  --secondary-color: #4CA1A3;
+  --secondary-color: #4ca1a3;
   --primary-shadow: #8b8eaf;
   --secondary-shadow: #a17a69;
   --bottom-margin: 0.5rem;
@@ -199,7 +199,7 @@ nav ul li {
 
 .project-container {
   width: 21.875rem;
-  height: 25rem;
+  height: 27rem;
   padding: 1rem;
 }
 
@@ -213,6 +213,11 @@ nav ul li {
 
 .project-details {
   margin-bottom: var(--bottom-margin);
+}
+
+.project-link {
+  display: block;
+  padding: 0.25rem 0;
 }
 
 .project-card {
@@ -332,7 +337,6 @@ footer {
 /* Media Queries */
 
 @media screen and (max-width: 720px) {
-
   /* Navbar */
 
   nav {
@@ -367,7 +371,7 @@ footer {
   .hero {
     margin-top: -4rem;
     flex-direction: column;
-    gap: 0
+    gap: 0;
   }
 
   .hero-img {
@@ -419,7 +423,6 @@ footer {
 }
 
 @media screen and (max-width: 420px) {
-
   /* Hero Section */
   .hero-img {
     height: 37.5rem;
