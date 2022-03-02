@@ -2223,9 +2223,6 @@ input[type="radio"] + label:before {
   display: block;
   margin: 0 0 2em 0;
   width: 100%;
-  object-fit: cover;
-  height: 217px;
-  overflow: hidden;
 }
 
 .image.fit img {
@@ -2695,7 +2692,7 @@ input[type="button"]:disabled,
   justify-content: space-between;
   /* background-color: #1f1815; */
   background-image: url("images/overlay.png"), linear-gradient(#041562, #11468f);
-  background-attachment: scroll, scroll;
+  background-attachment: fixed, fixed;
   background-position: top left, top left;
   background-repeat: repeat, no-repeat;
   background-size: auto, 150%;
