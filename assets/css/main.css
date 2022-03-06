@@ -2891,6 +2891,7 @@ ul.built-with {
   list-style: none;
   padding-left: 0;
   gap: 1rem;
+  flex-wrap: wrap;
 }
 
 ul.built-with li {
