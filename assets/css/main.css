@@ -2388,6 +2388,10 @@ form > .fields > .field.quarter {
   }
 }
 
+.captcha {
+  margin: 2em auto 0;
+}
+
 label {
   color: #ffffff;
   font-weight: bold;
