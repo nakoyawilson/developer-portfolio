@@ -1665,7 +1665,11 @@ input[type="button"],
 
 /* Work Item */
 .work-item {
-  margin: 0 0 2em 0; }
+  margin: 0 0 2em 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem; }
   .work-item .image {
     margin: 0 0 1.5em 0; }
   .work-item h3 {
