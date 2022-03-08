@@ -2068,7 +2068,6 @@ body.is-touch .poptrox-popup .closer {
   #footer {
     background-attachment: scroll;
     background-color: #0a043c;
-    background-image: url("images/overlay.png"), url("../../images/bg.jpg");
     background-position: top left, bottom center;
     background-repeat: repeat, no-repeat;
     background-size: auto, cover;
